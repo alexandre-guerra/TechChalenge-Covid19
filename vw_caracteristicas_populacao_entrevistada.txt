@@ -1,0 +1,21 @@
+SELECT
+MES,
+sigla_uf,
+COUNT(*) as qtd_populacao_entrevistada,
+SUM(IF(A003 = '1' , 1, 0)) as qtd_homens,
+SUM(IF(A003 = '2' , 1, 0)) as qtd_mulheres,
+SUM(IF(A004 = '1', 1, 0)) as qtd_branca,
+SUM(IF(A004 = '2', 1, 0)) as qtd_preta,
+SUM(IF(A004 = '3', 1, 0)) as qtd_amarela,
+SUM(IF(A004 = '4', 1, 0)) as qtd_parda,
+SUM(IF(A004 = '5', 1, 0)) as qtd_indigena,
+SUM(IF(A004 = '9', 1, 0)) as qtd_ignorado,
+SUM(IF(A005 = '1', 1, 0)) as qtd_sem_instrucao,
+SUM(IF(A005 between '2' and '3', 1, 0)) as qtd_fundamental,
+SUM(IF(A005 between '4' and '5', 1, 0)) as qtd_medio,
+SUM(IF(A005 between '6' and '7', 1, 0)) as qtd_superior,
+SUM(IF(A005 = '8', 1, 0)) as qtd_pos_graduacao
+FROM `techchalengecovid19.Microdados.tb_pinad_covid`
+GROUP BY
+MES, sigla_uf
+ORDER BY 1,2
