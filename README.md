@@ -1,10 +1,15 @@
-Tech Challenge - Pós-Graduação em Data Analytics
+# Tech Challenge - Pós-Graduação em Data Analytics
 
 **Instituição:** FIAP - Turma 2DTAT
 
 ---
 
 ## POSTECH FIAP - Fase 3 - BIG DATA
+
+### Título
+
+**Análise de Impacto da COVID-19 Através dos Dados da PNAD: Estratégias e Preparação Hospitalar para Futuros Surtos**
+---
 
 **Objetivo:** Trazer uma breve análise da base de dados PNAD COVID-19 do IBGE, mostrar como foi a organização do banco, as perguntas selecionadas para a resposta do problema e quais seriam as principais ações que o hospital deverá tomar em caso de um novo surto de COVID-19.
 
