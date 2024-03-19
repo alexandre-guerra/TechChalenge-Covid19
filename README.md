@@ -1,4 +1,4 @@
-# Tech Challenge - Pós-Graduação em Data Analytics
+Tech Challenge - Pós-Graduação em Data Analytics
 
 **Instituição:** FIAP - Turma 2DTAT
 
@@ -310,9 +310,9 @@ ORDER BY
 
 #### 3G. Integração dos dados ao Microsoft Power BI
 
-- **Modelo de dados**
+- **Modelo de dados:**
 
-#### 3H. Análise aprofundada e multifacetada dos impactos da COVID-19
+![Diagrama De Dados](/ModeloDados.png)
 
 ### 4. Resultados e Aplicações
 
