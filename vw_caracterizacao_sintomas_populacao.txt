@@ -7,14 +7,14 @@ SELECT
     SUM(IF(b0013 = '1', 1, 0)) AS qtd_dor_de_garganta,
     SUM(IF(b0014 = '1', 1, 0)) AS qtd_dificuldade_para_respirar,
     SUM(IF(b0015 = '1', 1, 0)) AS qtd_dor_de_cabeca,
-    SUM(IF(b0016 = '1', 1, 0)) as qtd_dor_no_peito,
-    SUM(IF(b0017 = '1', 1, 0)) as qtd_nausea_ou_enjoo,
-    SUM(IF(b0018 = '1', 1, 0)) as qtd_nariz_entupido,
-    SUM(IF(b0019 = '1', 1, 0)) as qtd_fadiga,
-    SUM(IF(b00110 = '1', 1, 0)) as qtd_dor_nos_olhos,
-    SUM(IF(b00111 = '1', 1, 0)) as qtd_perda_de_olfato_ou_paladar,
-    SUM(IF(b00112 = '1', 1, 0)) as qtd_dor_muscular,
-    SUM(IF(b00113 = '1', 1, 0)) as qtd_diarreia,
+    SUM(IF(b0016 = '1', 1, 0)) AS qtd_dor_no_peito,
+    SUM(IF(b0017 = '1', 1, 0)) AS qtd_nausea_ou_enjoo,
+    SUM(IF(b0018 = '1', 1, 0)) AS qtd_nariz_entupido,
+    SUM(IF(b0019 = '1', 1, 0)) AS qtd_fadiga,
+    SUM(IF(b00110 = '1', 1, 0)) AS qtd_dor_nos_olhos,
+    SUM(IF(b00111 = '1', 1, 0)) AS qtd_perda_de_olfato_ou_paladar,
+    SUM(IF(b00112 = '1', 1, 0)) AS qtd_dor_muscular,
+    SUM(IF(b00113 = '1', 1, 0)) AS qtd_diarreia,
     -- Medidas tomadas para se recuperar dos sintomas
     SUM(IF(b0031 = '1', 1, 0)) AS qtd_ficou_em_casa,
     SUM(IF(b0032 = '1', 1, 0)) AS qtd_ligou_profissional_saude,
@@ -39,27 +39,28 @@ SELECT
     SUM(IF(b006 = '1', 1, 0)) AS qtd_intubacoes,
     -- Testes realizados e resultados
     SUM(IF(b008 = '1', 1, 0)) AS qtd_fez_teste,
-    SUM(IF(b009b = '1' or b009d = '1' or b009f = '1',1,0)) AS qtd_teste_positivo,
-    SUM(IF(b009b = '2' or b009d = '2' or b009f = '2',1,0)) AS qtd_teste_negativo,
-    SUM(IF(b009b = '3' or b009d = '3' or b009f = '3',1,0)) AS qtd_teste_inconclusivo
+    SUM(IF(b009b = '1' OR b009d = '1' OR b009f = '1', 1, 0)) AS qtd_teste_positivo,
+    SUM(IF(b009b = '2' OR b009d = '2' OR b009f = '2', 1, 0)) AS qtd_teste_negativo,
+    SUM(IF(b009b = '3' OR b009d = '3' OR b009f = '3', 1, 0)) AS qtd_teste_inconclusivo
 FROM
     `techchalengecovid19.Microdados.tb_pinad_covid`
 WHERE
-(
-b00110 = '1' or
-b00111 = '1' or
-b00112 = '1' or
-b00113 = '1' or
-b0011 = '1' or
-b0012 = '1' or
-b0013 = '1' or
-b0014 = '1' or
-b0015 = '1' or
-b0016 = '1' or
-b0017 = '1' or
-b0018 = '1' or
-b0019 = '1'
-)
+    (
+    b00110 = '1' OR
+    b00111 = '1' OR
+    b00112 = '1' OR
+    b00113 = '1' OR
+    b0011 = '1' OR
+    b0012 = '1' OR
+    b0013 = '1' OR
+    b0014 = '1' OR
+    b0015 = '1' OR
+    b0016 = '1' OR
+    b0017 = '1' OR
+    b0018 = '1' OR
+    b0019 = '1'
+    )
 GROUP BY
-MES, sigla_uf
-ORDER BY 1, 2
+    MES, sigla_uf
+ORDER BY
+    1, 2;

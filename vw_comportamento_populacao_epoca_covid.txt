@@ -24,6 +24,7 @@ SELECT
     SUM(IF(c016 = '9', 1, 0)) AS qtd_motivo_aguardando_resposta
 FROM
     `techchalengecovid19.Microdados.tb_pinad_covid`
-group by
-mes, sigla_uf
-order by 1, 2
+GROUP BY
+    MES, sigla_uf
+ORDER BY
+    1, 2;
