@@ -1,0 +1,8 @@
+Link do github para acesso as explicações, querys SQL e etc...
+
+https://github.com/alexandre-guerra/TechChalenge-Covid19
+
+
+Link para o DashBoard do Power BI...
+
+https://app.powerbi.com/view?r=eyJrIjoiMTljMWU2YjctYjc1Yi00NGE2LWE2MTQtMjNmODA4M2FmZjQ0IiwidCI6IjExZGJiZmUyLTg5YjgtNDU0OS1iZTEwLWNlYzM2NGU1OTU1MSIsImMiOjR9&pageName=ReportSection

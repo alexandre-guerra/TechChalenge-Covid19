@@ -1,7 +1,6 @@
 SELECT
     MES,
     sigla_uf,
-    -- Como a pandemia afetou o comportamento de isolamento social da população?
     SUM(IF(b011 = '1', 1, 0)) AS qtd_sem_restricao,
     SUM(IF(b011 = '2', 1, 0)) AS qtd_reduziu_contato_mas_saiu,
     SUM(IF(b011 = '3', 1, 0)) AS qtd_ficou_em_casa_necessidade,
