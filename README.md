@@ -319,8 +319,7 @@ ORDER BY
 
 ![Diagrama De Dados](/ModeloDados.png)
 
-- **Acesso ao Dashboard:**
-
+### Acesso ao Dashboard: [Análise PINAD COVID-19](https://app.powerbi.com/view?r=eyJrIjoiMTljMWU2YjctYjc1Yi00NGE2LWE2MTQtMjNmODA4M2FmZjQ0IiwidCI6IjExZGJiZmUyLTg5YjgtNDU0OS1iZTEwLWNlYzM2NGU1OTU1MSIsImMiOjR9&pageName=ReportSection)
   
 
 ### 4. Resultados e Aplicações
@@ -346,3 +345,5 @@ Essas informações são cruciais para entender as dinâmicas de saúde, econôm
 - Monitoramento e Análise de Dados: Utilizar dados para monitorar a propagação do vírus, identificar hotspots e informar a tomada de decisão.
 
 Essas ações ajudariam a mitigar o impacto de futuros surtos e garantir que os hospitais e sistemas de saúde estejam melhor preparados para responder eficazmente.
+---
+## Acesso ao Dashboard: [Análise PINAD COVID-19](https://app.powerbi.com/view?r=eyJrIjoiMTljMWU2YjctYjc1Yi00NGE2LWE2MTQtMjNmODA4M2FmZjQ0IiwidCI6IjExZGJiZmUyLTg5YjgtNDU0OS1iZTEwLWNlYzM2NGU1OTU1MSIsImMiOjR9&pageName=ReportSection)
