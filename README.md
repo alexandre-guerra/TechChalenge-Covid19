@@ -6,6 +6,11 @@
 
 ## POSTECH FIAP - Fase 3 - BIG DATA
 
+### Título
+
+**Análise de Impacto da COVID-19 Através dos Dados da PNAD: Estratégias e Preparação Hospitalar para Futuros Surtos**
+---
+
 **Objetivo:** Trazer uma breve análise da base de dados PNAD COVID-19 do IBGE, mostrar como foi a organização do banco, as perguntas selecionadas para a resposta do problema e quais seriam as principais ações que o hospital deverá tomar em caso de um novo surto de COVID-19.
 
 ---
@@ -310,12 +315,35 @@ ORDER BY
 
 #### 3G. Integração dos dados ao Microsoft Power BI
 
-- **Modelo de dados**
+- **Modelo de dados:**
 
-#### 3H. Análise aprofundada e multifacetada dos impactos da COVID-19
+![Diagrama De Dados](/ModeloDados.png)
+
+### Acesso ao Dashboard: [Análise PINAD COVID-19](https://app.powerbi.com/view?r=eyJrIjoiMTljMWU2YjctYjc1Yi00NGE2LWE2MTQtMjNmODA4M2FmZjQ0IiwidCI6IjExZGJiZmUyLTg5YjgtNDU0OS1iZTEwLWNlYzM2NGU1OTU1MSIsImMiOjR9&pageName=ReportSection)
+  
 
 ### 4. Resultados e Aplicações
 
-### 5. Conclusão
+A análise dos dashboards da Pesquisa Nacional por Amostra de Domicílios - PNAD COVID19 revela informações críticas sobre o impacto da pandemia no Brasil entre maio e novembro de 2020. Os dados ilustram uma variedade de sintomas da COVID-19 relatados pela população, com destaque para febre e dor de cabeça como os mais comuns. Além disso, uma parcela significativa da população não procurou assistência médica, o que pode indicar barreiras no acesso à saúde ou subnotificação de casos.
 
-### 6. Ações Recomendadas
+O comportamento de isolamento social mostra que a maioria das pessoas adotou medidas de restrição em algum nível, mas ainda havia uma proporção considerável que não seguiu as recomendações de permanecer em casa. No âmbito econômico, notamos que uma grande parcela da população estava afastada do trabalho, e um número significativo não procurou emprego devido à pandemia, destacando o impacto econômico e social da COVID-19.
+
+Essas informações são cruciais para entender as dinâmicas de saúde, econômicas e sociais durante a pandemia, permitindo que pesquisadores, formuladores de políticas e o público em geral tenham uma visão mais clara dos seus efeitos.
+
+### 5. Conclusão e Ações Recomendadas
+
+**Principais Ações Recomendadas para Hospitais em caso de novo surto de COVID-19:**
+
+- Preparação e Resposta Rápida: Melhorar a capacidade de resposta rápida a surtos, aumentando a disponibilidade de leitos, suprimentos médicos e pessoal treinado.
+
+- Triagem e Testagem: Implementar sistemas eficientes de triagem e testagem para identificar e isolar rapidamente os casos de COVID-19.
+
+- Educação e Comunicação: Fortalecer as campanhas de educação pública sobre medidas de prevenção, sintomas da COVID-19 e quando procurar tratamento médico.
+
+- Suporte à Comunidade: Trabalhar em conjunto com a comunidade para fornecer suporte a pessoas em quarentena e aquelas economicamente impactadas pela pandemia.
+
+- Monitoramento e Análise de Dados: Utilizar dados para monitorar a propagação do vírus, identificar hotspots e informar a tomada de decisão.
+
+Essas ações ajudariam a mitigar o impacto de futuros surtos e garantir que os hospitais e sistemas de saúde estejam melhor preparados para responder eficazmente.
+---
+## Acesso ao Dashboard: [Análise PINAD COVID-19](https://app.powerbi.com/view?r=eyJrIjoiMTljMWU2YjctYjc1Yi00NGE2LWE2MTQtMjNmODA4M2FmZjQ0IiwidCI6IjExZGJiZmUyLTg5YjgtNDU0OS1iZTEwLWNlYzM2NGU1OTU1MSIsImMiOjR9&pageName=ReportSection)
